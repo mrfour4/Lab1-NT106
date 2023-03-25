@@ -52,7 +52,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.label1.Location = new System.Drawing.Point(123, 54);
+            this.label1.Location = new System.Drawing.Point(314, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(575, 42);
             this.label1.TabIndex = 0;
@@ -77,7 +77,7 @@
             // 
             // txt3
             // 
-            this.txt3.Location = new System.Drawing.Point(784, 39);
+            this.txt3.Location = new System.Drawing.Point(805, 40);
             this.txt3.Name = "txt3";
             this.txt3.Size = new System.Drawing.Size(188, 30);
             this.txt3.TabIndex = 5;
@@ -87,7 +87,7 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label4.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label4.Location = new System.Drawing.Point(682, 40);
+            this.label4.Location = new System.Drawing.Point(694, 43);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(85, 25);
             this.label4.TabIndex = 4;
@@ -95,7 +95,7 @@
             // 
             // txt2
             // 
-            this.txt2.Location = new System.Drawing.Point(440, 39);
+            this.txt2.Location = new System.Drawing.Point(466, 42);
             this.txt2.Name = "txt2";
             this.txt2.Size = new System.Drawing.Size(188, 30);
             this.txt2.TabIndex = 3;
@@ -105,7 +105,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
             this.label3.ForeColor = System.Drawing.SystemColors.InfoText;
-            this.label3.Location = new System.Drawing.Point(349, 45);
+            this.label3.Location = new System.Drawing.Point(360, 45);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 25);
             this.label3.TabIndex = 2;
@@ -113,7 +113,7 @@
             // 
             // txt1
             // 
-            this.txt1.Location = new System.Drawing.Point(123, 40);
+            this.txt1.Location = new System.Drawing.Point(114, 42);
             this.txt1.Name = "txt1";
             this.txt1.Size = new System.Drawing.Size(188, 30);
             this.txt1.TabIndex = 1;

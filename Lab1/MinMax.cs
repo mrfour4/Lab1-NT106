@@ -14,21 +14,32 @@ namespace Lab1
         {
             double num1, num2, num3;
             double maxNum, minNum;
-            try
+
+            if (txt1.Text.Trim() == "" || txt2.Text.Trim() == "" || txt3.Text.Trim() == "")
             {
-                num1 = Double.Parse(txt1.Text.Trim());
-                num2 = Double.Parse(txt2.Text.Trim());
-                num3 = Double.Parse(txt3.Text.Trim());
-                maxNum = Math.Max(num1, Math.Max(num2, num3));
-                minNum = Math.Min(num1, Math.Min(num2, num3));
-                txtMax.Text = maxNum.ToString();
-                txtMin.Text = minNum.ToString();
-            }
-            catch
-            {
-                MessageBox.Show("Vui lòng nhập số thực");
+                MessageBox.Show("Vui lòng nhập đủ 3 số thực");
                 txtMax.Text = "";
                 txtMin.Text = "";
+            }
+            else
+            {
+
+                try
+                {
+                    num1 = Double.Parse(txt1.Text.Trim());
+                    num2 = Double.Parse(txt2.Text.Trim());
+                    num3 = Double.Parse(txt3.Text.Trim());
+                    maxNum = Math.Max(num1, Math.Max(num2, num3));
+                    minNum = Math.Min(num1, Math.Min(num2, num3));
+                    txtMax.Text = maxNum.ToString();
+                    txtMin.Text = minNum.ToString();
+                }
+                catch
+                {
+                    MessageBox.Show("Vui lòng nhập số thực");
+                    txtMax.Text = "";
+                    txtMin.Text = "";
+                }
             }
         }
 
