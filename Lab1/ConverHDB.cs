@@ -52,7 +52,8 @@ namespace Lab1
         {
             if (fromBase != 10 && toBase != 10)
             {
-                return ConvertBase(number, fromBase, toBase);
+                string convertToDec = DoubleConvertBase(number, fromBase, 10);
+                return DoubleConvertBase(convertToDec, 10, toBase);
             }
 
             if (fromBase == 10)
