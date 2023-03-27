@@ -166,7 +166,7 @@ namespace Lab1
             }
             catch
             {
-                MessageBox.Show("Vui lòng nhập số tự nhiên");
+                MessageBox.Show("Vui lòng nhập số nguyên");
             }
         }
     }

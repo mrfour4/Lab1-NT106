@@ -24,6 +24,7 @@ namespace Lab1
             catch
             {
                 MessageBox.Show("Vui lòng nhập số nguyên");
+                txtResult.Text = "";
             }
         }
 
@@ -41,6 +42,7 @@ namespace Lab1
             catch
             {
                 MessageBox.Show("Vui lòng nhập số nguyên");
+                txtResult.Text = "";
             }
         }
 
@@ -58,6 +60,7 @@ namespace Lab1
             catch
             {
                 MessageBox.Show("Vui lòng nhập số nguyên");
+                txtResult.Text = "";
             }
         }
 
@@ -84,6 +87,7 @@ namespace Lab1
             catch
             {
                 MessageBox.Show("Vui lòng nhập số nguyên");
+                txtResult.Text = "";
             }
 
         }
